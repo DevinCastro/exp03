@@ -1,0 +1,24 @@
+{
+  "name": "exp03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinCastro/exp03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevinCastro/exp03/issues"
+  },
+  "homepage": "https://github.com/DevinCastro/exp03#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
