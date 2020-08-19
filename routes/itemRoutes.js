@@ -57,13 +57,13 @@ router.put('/items/:text', (req, res) => {
 })
 
 // DELETE one item
-router.delete('/items/:text', (req, res) => {
+router.delete('/items/:id', (req, res) => {
 
   fs.readFile(join(__dirname, '..', 'db', 'db.json'), 'utf8', (err, data) => {
     if (err) { console.log(err) }
 
     let items = JSON.parse(data)
-    items = items.filter(item => item.text !== req.params.text)
+    items = items.filter(item => item.id !== req.params.id)
 
    
     fs.writeFile(join(__dirname, '..', 'db', 'db.json'), JSON.stringify(items), err => {

@@ -1,3 +1,7 @@
-h1 {
-  color: red;
+.done {
+  color: green;
+}
+
+.notDone {
+  color: black;
 }
